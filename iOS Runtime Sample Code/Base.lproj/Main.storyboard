@@ -24,11 +24,43 @@
                                     <action selector="sendMsg:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nPp-sA-fG8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgA-lS-fGX">
+                                <rect key="frame" x="20" y="49" width="329" height="30"/>
+                                <state key="normal" title="通过method_exchangeImplementations交换实现"/>
+                                <connections>
+                                    <action selector="exchangeImplementations:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L7E-ni-42v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBu-cK-Qq5">
+                                <rect key="frame" x="20" y="79" width="240" height="30"/>
+                                <state key="normal" title="通过class_addMethod动态添加方法"/>
+                                <connections>
+                                    <action selector="addMethod:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mnt-EX-0OH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="324" y="311"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ipp-73-NZ8">
+            <objects>
+                <viewController id="yyg-Az-Oj7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6OE-PU-bJ5"/>
+                        <viewControllerLayoutGuide type="bottom" id="e4Y-dp-Oue"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XfG-Gj-OPo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wVy-d9-9ct" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>

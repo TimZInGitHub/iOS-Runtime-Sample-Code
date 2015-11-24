@@ -113,8 +113,6 @@
 				2264359A1C0418FB00F92B79 /* LaunchScreen.storyboard */,
 				2264359D1C0418FB00F92B79 /* Info.plist */,
 				2264358C1C0418FB00F92B79 /* Supporting Files */,
-				226435BF1C0423F900F92B79 /* TZPerson.h */,
-				226435C01C0423F900F92B79 /* TZPerson.m */,
 			);
 			path = "iOS Runtime Sample Code";
 			sourceTree = "<group>";
@@ -122,6 +120,7 @@
 		2264358C1C0418FB00F92B79 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				226435C21C04286500F92B79 /* Model */,
 				2264358D1C0418FB00F92B79 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +142,15 @@
 				226435B31C0418FB00F92B79 /* Info.plist */,
 			);
 			path = "iOS Runtime Sample CodeUITests";
+			sourceTree = "<group>";
+		};
+		226435C21C04286500F92B79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				226435BF1C0423F900F92B79 /* TZPerson.h */,
+				226435C01C0423F900F92B79 /* TZPerson.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

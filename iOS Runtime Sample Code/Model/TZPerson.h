@@ -16,4 +16,6 @@
 
 - (void)eat;
 
+- (void)jump;
+
 @end
