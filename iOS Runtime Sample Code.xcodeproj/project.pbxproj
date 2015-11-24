@@ -15,6 +15,7 @@
 		2264359C1C0418FB00F92B79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2264359A1C0418FB00F92B79 /* LaunchScreen.storyboard */; };
 		226435A71C0418FB00F92B79 /* iOS_Runtime_Sample_CodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 226435A61C0418FB00F92B79 /* iOS_Runtime_Sample_CodeTests.m */; };
 		226435B21C0418FB00F92B79 /* iOS_Runtime_Sample_CodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 226435B11C0418FB00F92B79 /* iOS_Runtime_Sample_CodeUITests.m */; };
+		226435C11C0423F900F92B79 /* TZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 226435C01C0423F900F92B79 /* TZPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		226435AD1C0418FB00F92B79 /* iOS Runtime Sample CodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Runtime Sample CodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		226435B11C0418FB00F92B79 /* iOS_Runtime_Sample_CodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Runtime_Sample_CodeUITests.m; sourceTree = "<group>"; };
 		226435B31C0418FB00F92B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		226435BF1C0423F900F92B79 /* TZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TZPerson.h; path = Model/TZPerson.h; sourceTree = "<group>"; };
+		226435C01C0423F900F92B79 /* TZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TZPerson.m; path = Model/TZPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				2264359A1C0418FB00F92B79 /* LaunchScreen.storyboard */,
 				2264359D1C0418FB00F92B79 /* Info.plist */,
 				2264358C1C0418FB00F92B79 /* Supporting Files */,
+				226435BF1C0423F900F92B79 /* TZPerson.h */,
+				226435C01C0423F900F92B79 /* TZPerson.m */,
 			);
 			path = "iOS Runtime Sample Code";
 			sourceTree = "<group>";
@@ -202,6 +207,7 @@
 		226435811C0418FB00F92B79 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TZ;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Tim.Z;
 				TargetAttributes = {
@@ -275,6 +281,7 @@
 			files = (
 				226435941C0418FB00F92B79 /* ViewController.m in Sources */,
 				226435911C0418FB00F92B79 /* AppDelegate.m in Sources */,
+				226435C11C0423F900F92B79 /* TZPerson.m in Sources */,
 				2264358E1C0418FB00F92B79 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = "iOS Runtime Sample Code/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TimZInGitHub.iOS-Runtime-Sample-Code";
@@ -427,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = "iOS Runtime Sample Code/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TimZInGitHub.iOS-Runtime-Sample-Code";
